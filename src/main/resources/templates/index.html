@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quote generator</title>
+    <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"/>-->
+    <!--<link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />-->
+</head>
+
+<body>
+    <div id="app">
+        <div id="quote-box" class="container rounded-border">
+
+            <blockquote id="text" class="">
+                <sup><i class="fas fa-quote-left mr-1"></i></sup>
+                <span id="quote">Bienvenido</span>
+                <sup><i class="fas fa-quote-right ml-1"></i></sup>
+            </blockquote>
+
+            <a class="btn" href="/v1/treneame/">Comenzar</a>
+        </div>
+    </div>
+    <footer class="footer">by Luciano Gabbanelli</footer>
+</body>
+</html>
