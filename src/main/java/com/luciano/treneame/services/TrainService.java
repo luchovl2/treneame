@@ -8,5 +8,6 @@ import java.util.List;
 public interface TrainService
 {
     List<Linea> getLineas();
-    List<Estacion> getEstaciones();
+    List<Estacion> getEstaciones(int lineaId);
+    List<Integer> getNextTrainsArrivals(int lineaId, int estacionId);
 }

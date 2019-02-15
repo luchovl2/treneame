@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Estacion</title>
+</head>
+<body>
+    <h1>Estacion <span th:text="${estacion}"/></h1>
+
+    <div>
+        <h2>Próximos trenes</h2>
+        <h3>Hacia alla</h3>
+        <ul th:each="tren: ${trenes1}">
+            <li> <span th:text="${tren}"></span> minutos</li>
+        </ul>
+        <h3>Hacia aca</h3>
+        <ul th:each="tren: ${trenes2}">
+            <li> <span th:text="${tren}"></span> minutos</li>
+        </ul>
+    </div>
+</body>
+</html>

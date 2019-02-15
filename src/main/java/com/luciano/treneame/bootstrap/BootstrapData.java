@@ -23,17 +23,18 @@ public class BootstrapData implements CommandLineRunner
     {
         System.out.println("Loading the data, vieja...");
 
-        Linea linea1 = new Linea(1, "linea 1");
-        linea1.addEstacion(new Estacion(1, "estacion 11"));
-        linea1.addEstacion(new Estacion(2, "estacion 12"));
-        linea1.addEstacion(new Estacion(3, "estacion 13"));
+        Linea linea1 = new Linea(1, "Sarmiento");
+        linea1.addEstacion(new Estacion(1, "Moreno"));
+        linea1.addEstacion(new Estacion(2, "Merlo"));
+        linea1.addEstacion(new Estacion(3, "Haedo"));
+        linea1.addEstacion(new Estacion(4, "Liniers"));
 
-        Linea linea2 = new Linea(2, "linea 2");
+        Linea linea2 = new Linea(2, "Mitre");
         linea2.addEstacion(new Estacion(1, "estacion 21"));
         linea2.addEstacion(new Estacion(2, "estacion 22"));
         linea2.addEstacion(new Estacion(3, "estacion 23"));
 
-        Linea linea3 = new Linea(3, "linea 3");
+        Linea linea3 = new Linea(3, "Urquiza");
         linea3.addEstacion(new Estacion(1, "estacion 31"));
         linea3.addEstacion(new Estacion(2, "estacion 32"));
         linea3.addEstacion(new Estacion(3, "estacion 33"));
